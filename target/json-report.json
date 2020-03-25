@@ -1,0 +1,51 @@
+@Practice.AutomationTesting.in
+Feature: Practice_Automation_Testing_1 website
+
+  @TS_01_Register
+  Scenario: Login in to the web application            # src/main/resources/feature/testcases.feature:5
+    Given open the url in a browser_01                 # Registerstepdefinition.open_the_url_in_a_browser_(int)
+    When url is launched click the MyAccount button_01 # Registerstepdefinition.url_is_launched_click_the_MyAccount_button_(int)
+    When Enter the email and password to register      # Registerstepdefinition.enter_the_email_and_password_to_register()
+    When click register button                         # Registerstepdefinition.click_register_button()
+    Then assert the registration is successful         # Registerstepdefinition.assert_the_registration_is_successful()
+
+  @TS_02_Login
+  Scenario: Login in to the web application                                                   # src/main/resources/feature/testcases.feature:13
+    Given open the url in a browser                                                           # Loginstepdefinition.open_the_url_in_a_browser()
+    When url is launched click the MyAccount button                                           # Loginstepdefinition.url_is_launched_click_the_MyAccount_button()
+    When enter the email id and password in the excel sheet 15 sets to click login and assert # Loginstepdefinition.enter_the_email_id_and_password_in_the_excel_sheet_sets_to_click_login_and_assert(int)
+    Then close the browser                                                                    # Loginstepdefinition.close_the_browser()
+
+  @TS_03_Shop
+  Scenario: Shop items                                       # src/main/resources/feature/testcases.feature:21
+    Given open the url in a browser1                         # Shopstepdefinition.open_the_url_in_a_browser(int)
+    When login to the application                            # Shopstepdefinition.login_to_the_application()
+    When click on shop from then menu                        # Shopstepdefinition.click_on_shop_from_then_menu()
+    When click any item add to basket                        # Shopstepdefinition.click_any_item_add_to_basket()
+    Then Assert number of items is displaying in basket icon # Shopstepdefinition.assert_number_of_items_is_displaying_in_basket_icon()
+
+  @TS_04_increase_cart
+  Scenario: Increase the quantity in added cart # src/main/resources/feature/testcases.feature:29
+    Given open the url                          # IncreaseCartstepdefinition.open_the_url()
+    When login to the application2              # IncreaseCartstepdefinition.login_to_the_application(int)
+    When click view cart                        # IncreaseCartstepdefinition.click_view_cart()
+    When increase the quantity in cart          # IncreaseCartstepdefinition.increase_the_quantity_in_cart()
+    When click update basket                    # IncreaseCartstepdefinition.click_update_basket()
+    Then Asssert number of items increased      # IncreaseCartstepdefinition.asssert_number_of_items_increased()
+
+  @TS_05_decrease_cart
+  Scenario: decrease the quantity in the added cart # src/main/resources/feature/testcases.feature:38
+    Given open the url in browser                   # DecreaseCartstepdefinition.open_the_url_in_browser()
+    When login to application3                      # DecreaseCartstepdefinition.login_to_application(int)
+    When click the view cart                        # DecreaseCartstepdefinition.click_the_view_cart()
+    When decrease the quantity in cart              # DecreaseCartstepdefinition.decrease_the_quantity_in_cart()
+    When click the update basket                    # DecreaseCartstepdefinition.click_the_update_basket()
+    Then Assert number of items decreased           # DecreaseCartstepdefinition.assert_number_of_items_decreased()
+
+  @TS_06_delete_cart
+  Scenario: delete item in cart              # src/main/resources/feature/testcases.feature:47
+    Given open the url in browser1           # Deletecartstepdefinition.open_the_url_in_browser(int)
+    When login to the automation application # Deletecartstepdefinition.login_to_the_automation_application()
+    When click the view shopping cart        # Deletecartstepdefinition.click_the_view_shopping_cart()
+    When delete the item in the cart         # Deletecartstepdefinition.delete_the_item_in_the_cart()
+    Then Assert cart is empty                # Deletecartstepdefinition.assert_cart_is_empty()
