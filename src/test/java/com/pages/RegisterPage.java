@@ -48,7 +48,7 @@ public class RegisterPage {
 	}
 	//To enter user name and password
 	public void RegDetails() {
-		driver.findElement(RegUser).sendKeys("mahselenum@gmail.com");
+		driver.findElement(RegUser).sendKeys("mahselnium@gmail.com");
 		driver.findElement(RegPass).sendKeys("7013167813@mahesh");
 		driver.findElement(RegPass).click();
 	

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="365.811075">
-    <testcase classname="Practice_Automation_Testing_1 website" name="Login in to the web application" time="30.106123">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="480.568296">
+    <testcase classname="Practice_Automation_Testing_1 website" name="Login in to the web application" time="41.330318">
         <system-out>
             <![CDATA[Given open the url in a browser_01..........................................passed
 When url is launched click the MyAccount button_01..........................passed
@@ -10,7 +10,7 @@ Then assert the registration is successful..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Practice_Automation_Testing_1 website" name="Login in to the web application" time="178.879915">
+    <testcase classname="Practice_Automation_Testing_1 website" name="Login in to the web application" time="244.009306">
         <system-out>
             <![CDATA[Given open the url in a browser.............................................passed
 When url is launched click the MyAccount button.............................passed
@@ -19,7 +19,7 @@ Then close the browser......................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Practice_Automation_Testing_1 website" name="Shop items" time="32.079576">
+    <testcase classname="Practice_Automation_Testing_1 website" name="Shop items" time="48.051299">
         <system-out>
             <![CDATA[Given open the url in a browser1............................................passed
 When login to the application...............................................passed
@@ -29,7 +29,7 @@ Then Assert number of items is displaying in basket icon....................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Practice_Automation_Testing_1 website" name="Increase the quantity in added cart" time="46.272896">
+    <testcase classname="Practice_Automation_Testing_1 website" name="Increase the quantity in added cart" time="44.558093">
         <system-out>
             <![CDATA[Given open the url..........................................................passed
 When login to the application2..............................................passed
@@ -40,7 +40,7 @@ Then Asssert number of items increased......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Practice_Automation_Testing_1 website" name="decrease the quantity in the added cart" time="36.304811">
+    <testcase classname="Practice_Automation_Testing_1 website" name="decrease the quantity in the added cart" time="60.077919">
         <system-out>
             <![CDATA[Given open the url in browser...............................................passed
 When login to application3..................................................passed
@@ -51,7 +51,7 @@ Then Assert number of items decreased.......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Practice_Automation_Testing_1 website" name="delete item in cart" time="42.167754">
+    <testcase classname="Practice_Automation_Testing_1 website" name="delete item in cart" time="42.541361">
         <system-out>
             <![CDATA[Given open the url in browser1..............................................passed
 When login to the automation application....................................passed
